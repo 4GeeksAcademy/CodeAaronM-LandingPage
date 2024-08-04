@@ -4,11 +4,11 @@ import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Footer from "./Footer.jsx";
 //create your first component
-const Home = () => {
+const Phone = () => {
 	return (
 		<>
 		<Navbar/>
-		<div className="Container row">
+		<div className="Container row" style={{width: "500px"}}>
 			<Jumbotron/>
 			<Card></Card>
 			<Card></Card>
@@ -20,4 +20,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Phone;
