@@ -7,8 +7,7 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-import Phone from "./component/phone.jsx"
-import Buttons from "./component/Buttons.jsx";
+
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Buttons/>)
+ReactDOM.createRoot(document.getElementById('app')).render(<Home/>)

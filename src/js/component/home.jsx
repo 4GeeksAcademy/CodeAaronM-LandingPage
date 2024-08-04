@@ -7,8 +7,8 @@ import Footer from "./Footer.jsx";
 const Home = () => {
 	return (
 		<>
-		<Navbar/>
 		<div className="Container row">
+			<Navbar/>
 			<Jumbotron/>
 			<Card></Card>
 			<Card></Card>
